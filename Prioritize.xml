@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+
+    <test name="priority file name">
+
+        <classes>
+
+            <class name="org.example.Prioritizing">
+                <methods>
+                    <include name="priority1"/>
+                    <include name="priority2"/>
+                    <include name="priority3"/>
+                    <include name="priority4"/>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

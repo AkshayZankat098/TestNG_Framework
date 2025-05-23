@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+    <test name="TestWithParameters">
+        <parameter name="username" value="Akshay"/>
+        <parameter name="password" value="Zankat"/>
+
+        <parameter name="username" value="UserName01"/>
+        <parameter name="password" value="Password01"/>
+
+        <parameter name="username" value="UserName02"/>
+        <parameter name="password" value="Password02"/>
+
+        <parameter name="username" value="UserName03"/>
+        <parameter name="password" value="Password03"/>
+
+        <parameter name="username" value="UserName04"/>
+        <parameter name="password" value="Password04"/>
+
+
+        <classes>
+            <class name="org.example.Parameterizing"/>
+        </classes>
+
+
+    </test>
+</suite>
